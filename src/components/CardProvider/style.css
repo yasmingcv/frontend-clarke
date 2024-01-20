@@ -1,0 +1,76 @@
+.card_provider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.provider_info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.info_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.info_main img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.info_main p{
+    text-align: center;
+}
+
+.vertical_line{
+    height: 100px;
+    width: 20px;
+    color: black;
+}
+
+.horizontal_line{
+    height: 2px;
+    width: 200px;
+    color: black;
+}
+
+.general_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    width: 25vw;
+    justify-content: space-between;
+}
+
+.title h1{
+    font-size: 1.25rem;
+}
+
+.kwh_info p{
+    font-size: 1rem;
+}
+
+.vertical_line{
+    height: 90px;
+    width: 1px;
+    background-color: #B4B4B4;
+}
+
+.horizontal_line{
+    height: 1px;
+    width: 35vw;
+    background-color: #B4B4B4;
+}

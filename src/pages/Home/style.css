@@ -1,0 +1,27 @@
+.home{
+    height: 80vh;
+    width: 60vw;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 40px;
+}
+.home__text{
+    color: #FFF;
+    font-size: 3rem;
+}
+.home__button{
+    color: #000;
+    background-color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 10px 40px;
+    border-radius: 50px;
+}
+.home__button:hover {
+    transition: all .5s;
+    transform: scale(1.1);
+}

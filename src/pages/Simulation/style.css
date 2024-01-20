@@ -1,0 +1,45 @@
+.simulation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+.simulation div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: #FFF;
+    width: 38vw;
+    height: 40vh;
+    padding: 30px;
+    border-radius: 20px;
+}
+.simulation__text{
+    font-size: 1.8rem;
+    text-align: center;
+}
+.simulation__input{
+    width: 100%;
+    height: 35px;
+    border: none;
+    background-color: #C9C9C9;
+    border-radius: 20px;
+    padding: 0px 10px;
+    outline: none;
+}
+.simulation__input:focus{
+    outline: 2px solid var(--primary-color);
+}
+.simulation__button{
+    background-color: var(--primary-color);
+    font-size: 2.5rem;
+    color: black;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.simulation__button:hover {
+    transition: all .5s;
+    transform: scale(1.1);
+}
