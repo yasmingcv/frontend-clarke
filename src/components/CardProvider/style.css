@@ -72,7 +72,9 @@
     justify-content: center;
     gap: 4px;
 }
-
+.rating__star{
+    font-size: 1.3rem;
+}
 .vertical_line{
     height: 90px;
     width: 1px;
@@ -81,6 +83,45 @@
 
 .horizontal_line{
     height: 1px;
-    width: 35vw;
+    width: 100%;
     background-color: #B4B4B4;
+}
+
+@media(max-width: 750px){
+    .info_main{
+        width: 20vw;
+    }
+    .provider_info{
+        display: flex;
+        justify-content: space-between;
+    }
+    .general_info{
+        width: 50vw;
+    }
+    .info_main img{
+        height: 40px;
+        width: 40px;
+    }
+    .title{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .title h1{
+        font-size: 1rem;
+    }
+    .rating{
+        font-size: .8rem;
+    }
+    .rating__star{
+        font-size: 1rem;
+    }
+    .horizontal_line{
+        height: 1px;
+        width: 100%;
+        background-color: #B4B4B4;
+    }
+    .kwh_info p{
+        font-size: .8rem;
+    }
 }

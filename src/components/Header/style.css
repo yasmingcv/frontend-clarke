@@ -26,3 +26,9 @@ header img {
     transition: all .5s;
     transform: scale(1.1);
 }
+
+@media(max-width: 550px){
+    .header__button{
+        display: none;
+    }
+}

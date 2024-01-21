@@ -44,3 +44,12 @@
     transform: scale(1.1);
     cursor: pointer;
 }
+
+@media(max-width: 750px){
+    .simulation div{
+        width: 90vw;
+    }
+    .simulation__text{
+        font-size: 1.5rem;
+    }
+}

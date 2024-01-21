@@ -24,7 +24,7 @@ function CardProvider({ infoProvider }) {
                         <h1>{infoProvider.name} - {infoProvider.state}</h1>
 
                         <div className="rating">
-                            <FaStar color='#FFB800' size='1.3rem'/>
+                            <FaStar color='#FFB800' className='rating__star'/>
                             {infoProvider.average_rating}
                         </div>
 
