@@ -22,8 +22,6 @@ function Provider() {
             const fetchProviders = async () => {
                 try {
                     const response = await axios.get(`https://clarkeenergia.cyclic.app/providers?minimum_kwh=${kwh}`)
-
-                    console.log(response.data.data)
                     setProviders(response.data.data)
 
                     setStatusReq(true)
@@ -45,7 +43,6 @@ function Provider() {
             }
 
             fetchProviders()
-            console.log('providers', providers)
 
         }
 

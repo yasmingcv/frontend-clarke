@@ -3,8 +3,6 @@ import { FaStar } from "react-icons/fa";
 
 function CardProvider({ infoProvider }) {
 
-    console.log(infoProvider);
-
     return (
         <div className='card_provider'>
 
