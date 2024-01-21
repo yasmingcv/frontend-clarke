@@ -42,4 +42,5 @@
 .simulation__button:hover {
     transition: all .5s;
     transform: scale(1.1);
+    cursor: pointer;
 }

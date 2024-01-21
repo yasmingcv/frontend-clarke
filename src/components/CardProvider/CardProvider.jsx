@@ -1,39 +1,38 @@
 import './style.css'
+import { FaStar } from "react-icons/fa";
 
-function CardProvider() {
+function CardProvider({ infoProvider }) {
+
+    console.log(infoProvider);
+
     return (
         <div className='card_provider'>
 
-            {/* row */}
             <div className='provider_info'>
 
-                {/* column */}
                 <div className='info_main'>
-                    <img src={require('../../assets/background.jpeg')} alt="logo da empresa" />
-                    <p>900 clientes</p>
+                    <img src={infoProvider.logo} alt="logo da empresa" />
+                    <p>{infoProvider.total_clients} clientes</p>
                 </div>
 
                 <span className='vertical_line'></span>
 
-                {/* column */}
                 <div className='general_info'>
 
-                    {/* row */}
                     <div className='title'>
 
-                        <h1>Enel - SP</h1>
+                        <h1>{infoProvider.name} - {infoProvider.state}</h1>
 
                         <div className="rating">
-                            <logoestrela />
-                            4.6
+                            <FaStar color='#FFB800' size='1.3rem'/>
+                            {infoProvider.average_rating}
                         </div>
 
                     </div>
 
-                    {/* column */}
                     <div className='kwh_info'>
-                        <p>R$400/kwh</p>
-                        <p>Mínimo de 10000kwh</p>
+                        <p>R${infoProvider.cost_per_kwh}/kwh</p>
+                        <p>Mínimo de {infoProvider.minimun_kwh_limit}kwh</p>
                     </div>
 
                 </div>

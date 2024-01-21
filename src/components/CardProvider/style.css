@@ -63,6 +63,16 @@
     font-size: 1rem;
 }
 
+.rating{
+    display: flex;
+    background-color: #DBDBDB;
+    padding: 5px 12px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
 .vertical_line{
     height: 90px;
     width: 1px;
